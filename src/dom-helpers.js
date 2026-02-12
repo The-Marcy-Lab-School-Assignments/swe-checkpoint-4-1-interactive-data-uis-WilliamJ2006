@@ -22,7 +22,6 @@ export const renderProducts = (products) => {
 
 export const renderProductDetails = (product) => {
   const productDetails = document.querySelector('#product-details');
-  productDetails.innerHTML = '<h2 id="product-title">Essence Mascara Lash Princess</h2> <img src="" alt="" id="product-thumbnail"> <p>Price: $<span id="product-price"></span></p> <p id="product-description">The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.</p> <p>Rating: <span id="product-rating"></span> / 5</p>';
   const img = document.querySelector('#product-thumbnail');
   const price = document.querySelector('#product-price');
   const title = document.querySelector('#product-title');
