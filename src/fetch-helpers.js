@@ -44,5 +44,3 @@ export const searchProducts = async (query) => {
     return { data: null, error };
   }
 };
-
-searchProducts('eye').then((result) => console.log(result.data));
