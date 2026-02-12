@@ -26,4 +26,4 @@ What is Vite? What problem does it solve? And are there alternatives?
 
 **Your Answer:**
 
-Vite is a development server that we use to simulate the HTTP protocol. This is important because of the differences in `File://` and `HTTP://`, those being importing and exporting modules between files, and fetching data from API's over the internet. Both of which will fail and cause a Cross-Origin Resource Sharing error when using `File://`.
+Vite is a development server that we use to simulate the HTTP protocol. This is important because of the differences in `File://` and `HTTP://`, those being importing and exporting modules between files, and fetching data from API's over the internet. Both of which will fail and cause a Cross-Origin Resource Sharing error when using `File://`. Alternatives to Vite are, Live server and Five server, they both also use the `HTTP://` protocol.
