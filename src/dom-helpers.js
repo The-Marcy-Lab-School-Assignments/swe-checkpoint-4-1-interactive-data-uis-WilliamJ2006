@@ -14,7 +14,7 @@ export const renderProducts = (products) => {
     img.src = product.thumbnail;
     img.alt = `${product.title} image`;
     h3.textContent = product.title;
-    price.textContent = product.price;
+    price.textContent = `$${product.price}`;
     li.append(img, h3, price);
     ul.append(li);
   });
